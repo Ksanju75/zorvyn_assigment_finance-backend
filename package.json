@@ -1,0 +1,33 @@
+{
+  "name": "finance-backend",
+  "version": "1.0.0",
+  "description": "Finance Data Processing and Access Control Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/database/seed.js",
+    "test": "node src/test/test.js"
+  },
+  "keywords": [
+    "finance",
+    "backend",
+    "api",
+    "access-control"
+  ],
+  "author": "Sanju Kirade",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "joi": "^17.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
